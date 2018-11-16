@@ -11,7 +11,7 @@ var server = "507694894295416832";//ايدي السيرفر
 var channel = "509700370533056512";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا ')
-	},100);
+	},305);
 })
 
 client.on('message', message => {
