@@ -7,15 +7,15 @@ console.log(`Logged in as ${client.user.tag}!`);
 
 
 client.on('ready', async() => {
-var server = "512556758833823764";//ايدي السيرفر
-var channel = "512556850558795777";//ايدي الروم
+var server = "507694894295416832";//ايدي السيرفر
+var channel = "509700370533056512";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا يا خرا شنو هذا ')
 	},100);
 })
 
 client.on('message', message => {
-    let prefix = 'البريفكس';
+    let prefix = 'بريفكس الساي';
    if(message.content.startsWith('say')) {
        let args = message.content.split(' ').slice(1).join(' ');
        message.channel.send(args)
